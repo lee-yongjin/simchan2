@@ -48,21 +48,6 @@ st.bar_chart(df)
 
 st.write("------------------------------------------------")
 
-import matplotlib.pyplot as plt
-
-fig, ax = plt.subplots()
-ax.plot([1, 2, 3], [1, 4, 9])
-st.pyplot(fig)
-
-st.write("------------------------------------------------")
-
-#import plotly.express as px
-#df = px.data.iris()
-#fig = px.scatter(df, x="sepal_width", y="sepal_length", color="species")
-#st.plotly_chart(fig)
-
-st.write("------------------------------------------------")
-
 col1, col2 = st.columns(2)
 
 with col1:
